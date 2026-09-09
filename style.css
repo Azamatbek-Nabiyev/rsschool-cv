@@ -125,3 +125,31 @@ main ul {
 main a {
   color: #3b5bdb;
 }
+
+/* Code block & Footer */
+#code-example pre {
+  background: #1e1e2e;
+  color: #d4d4d4;
+  padding: 20px;
+  border-radius: 8px;
+  overflow-x: auto;
+  font-family: "Courier New", monospace;
+  font-size: 0.9rem;
+}
+
+footer {
+  text-align: center;
+  padding: 30px 20px;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #3b5bdb;
+  text-decoration: none;
+}
+
+footer img {
+  margin-top: 10px;
+  opacity: 0.8;
+}

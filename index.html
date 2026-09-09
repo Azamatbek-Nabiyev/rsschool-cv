@@ -105,7 +105,7 @@
         <h3>Tooling &amp; Practices</h3>
         <ul>
           <li>Git &amp; PR-based code review, GitHub Actions (CI/CD)</li>
-          <li>Docker, Vercel/Netlify deployment</li>
+          <li>Vercel/Netlify deployment</li>
           <li>Figma, Postman, i18next, Leaflet.js</li>
         </ul>
 
@@ -114,6 +114,14 @@
           <li>Uzbek (native)</li>
           <li>English (B2, IELTS certified)</li>
         </ul>
+      </section>
+
+      <section id="code-example">
+        <h2>Code Example</h2>
+        <p>Solution to the "Digital Root" kata from Codewars:</p>
+        <pre><code>function digital_root(n) {
+        return n &lt; 10 ? n : digital_root(String(n).split('').reduce((s,v)=&gt;Number(s)+Number(v)));
+        }</code></pre>
       </section>
     </main>
 

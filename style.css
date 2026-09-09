@@ -62,3 +62,66 @@ header nav a {
 header nav a:hover {
   color: #1a1a2e;
 }
+
+/* Sections */
+
+main section {
+  background: #fff;
+  border-radius: 10px;
+  padding: 25px 30px;
+  margin-bottom: 25px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+main h2 {
+  font-size: 1.5rem;
+  color: #1a1a2e;
+  padding-bottom: 8px;
+  margin-bottom: 15px;
+  border-bottom: 3px solid #3b5bdb;
+  display: inline-block;
+}
+
+main h3 {
+  color: #3b5bdb;
+  font-size: 1.1rem;
+  margin: 15px 0 5px;
+}
+
+main p {
+  margin-bottom: 10px;
+}
+
+main article {
+  padding: 12px 0;
+  border-bottom: 1px solid #eaeaea;
+}
+
+main article:last-child {
+  border-bottom: none;
+}
+
+main ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#skills li,
+#projects li,
+#contacts li {
+  padding: 6px 0 6px 20px;
+  position: relative;
+}
+
+#skills li::before,
+#projects li::before,
+#contacts li::before {
+  content: "▸";
+  color: #3b5bdb;
+  position: absolute;
+  left: 0;
+}
+
+main a {
+  color: #3b5bdb;
+}

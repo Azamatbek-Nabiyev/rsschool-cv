@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  line-height: 1.6;
+  color: #2b2b2b;
+  background-color: #f5f6f8;
+}
+
+header,
+main,
+footer {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
